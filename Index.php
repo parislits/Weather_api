@@ -8,7 +8,7 @@
 	
 		if (isset($_POST["city_name"])){
 			
-			$json = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".$_POST["city_name"]."&appid=d9f0e95c2aeebde47940047971c588ba&mode=json&units=metric");
+			$json = file_get_contents("http://api.openweathermap.org/data/2.5/weather?q=".$_POST["city_name"]."&appid=[key]&mode=json&units=metric");
 			
 			//When the city doesnt exist then the $json is a boolean and not a string that we want to parse.
 			if(!is_bool($json)) {
