@@ -1,0 +1,46 @@
+body {  
+    position: relative;
+    height: 100%;
+}
+.center {
+  width:100%;
+  margin:auto;
+  text-align:center;
+  vertical-align: middle;
+}
+
+#form_menu{
+	padding-top: 30px;
+}
+#menu{
+	background-color: #add8e6;
+	padding:2%;
+	margin-bottom:10px;
+}
+#weather{
+	width:100%;
+	margin:auto;
+	vertical-align: middle;
+	background-color:#faf1e1;
+	height:100%;
+}
+
+.country{
+	font-size: 30px;
+}
+
+
+#weather_menu{
+	padding-top: 30px;
+}
+
+#wrong_weather_menu{
+	padding-top: 30px;
+	color: #d8000c;
+}
+
+#components{
+	border-style: groove;
+	padding-left:10px;
+}
+h3 { display:inline }
